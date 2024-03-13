@@ -1,0 +1,30 @@
+{
+  "name": "@zctj/cli",
+  "version": "1.0.1",
+  "description": "zctj-cli 前端脚手架",
+  "main": "index.js",
+  "bin": {
+    "zctj-cli": "bin/zctj.js"
+  },
+  "scripts": {
+    "dev": "node ./bin/zctj.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zctj",
+    "zctj-cli",
+    "cli",
+    "脚手架",
+    "前端"
+  ],
+  "author": "diaoshuang <diaoshuangce@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "npmlog": "^7.0.1",
+    "@zctj-cli/utils": "file:./utils/utils",
+    "@zctj-cli/core": "file:./core/core"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.2"
+  }
+}
